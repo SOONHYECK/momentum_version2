@@ -49,4 +49,4 @@ const author = document.querySelector("#quote span:last-child");
 // quotes의 array 길이안에서 random 함수의 숫자 범위가 지정되도록 quotes.length를 사용
 const todayQuote = quotes[Math.floor(Math.random() * quotes.length)];
 quote.innerText = todayQuote.quote;
-author.innerText = todayQuote.author;
+author.innerText = `- ${todayQuote.author} -`;
