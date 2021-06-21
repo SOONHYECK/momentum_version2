@@ -98,6 +98,10 @@ body {
     flex-direction: column;
 }
 
+#todo-list li {
+    width: 500px;
+}
+
 #todo-list li span {
     font-size: 28px;
     font-weight: 400;
